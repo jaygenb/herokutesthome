@@ -1,3 +1,5 @@
+#Paperclip.options[:command_path] = 'C:\Program Files\ImageMagick-6.8.8-Q16'
+
 Pinteresting::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
@@ -30,3 +32,5 @@ Pinteresting::Application.configure do
   #required for heroku
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 end
+
+
