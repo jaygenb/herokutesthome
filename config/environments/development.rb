@@ -1,5 +1,3 @@
-#Paperclip.options[:command_path] = 'C:\Program Files\ImageMagick-6.8.8-Q16'
-
 Pinteresting::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
